@@ -1,0 +1,110 @@
+*{
+	padding:0;
+	margin:0;
+
+}
+body{
+	margin:0 50px;
+}
+header{
+
+	background-color:seagreen;
+	padding:30px;
+	margin:20px;
+}
+h1{
+	text-align:center;
+	color:white;
+}
+.info{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.info p{
+	font-family: serif;
+	font-size: 31px;
+	margin-left:20px;
+	color:black;
+	}
+img{
+	width:300px;
+	height:300px;
+	margin-right: 20px;
+}
+p{
+	font-size: 20px;
+	font-family: serif;
+	color:seagreen;
+	margin:10 0;
+}
+label{
+	font-family: serif;
+	font-size: 25px;
+}
+ul{
+	list-style-type:disc;
+	margin:10 50;
+}
+li{
+	maegin-bottom:10px;
+	font-family: serif;
+	font-size: 25px;
+}
+
+.sec{
+	display:flex;
+	justify-content:space-between;
+}	
+th,td{
+	border: 1px solid black;
+	text-align: center;
+}
+td,th{
+	width:150px;
+	height:80px;
+}
+form{
+	margin:10 0;
+	font-family: serif;
+	font-size: 28px;
+	
+}
+.f_label{
+	font-size: 32px;
+	padding-left: 0;
+	margin-left: 0;
+
+}
+#data{
+	margin:10px;
+	padding:10px;
+	border:1px solid seagreen;
+}
+input{
+	padding:15px;
+}
+button{
+	width:150px;
+	height:50px;
+	margin:10 50;
+	background-color: seagreen;
+	border:1px solid white;
+	border-radius: 15px;
+}
+form label{
+	margin-top:18 ;
+}
+form div{
+	margin-top:20px ;
+}
+/*.f_label{
+	margin:0 50;
+}*/
+.choice{
+	margin:10 10;
+}
+footer{
+	background-color: lightgrey;
+	height:50px;
+}
